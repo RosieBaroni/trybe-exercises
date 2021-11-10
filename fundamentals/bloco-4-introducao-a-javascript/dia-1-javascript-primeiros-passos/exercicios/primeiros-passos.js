@@ -23,14 +23,14 @@ if (valor1 > valor2) {
 // Requisito 3.
 
 let primeiro = 8;
-let segundo = 10;
-let terceiro = 2;
+let segundo = 2;
+let terceiro = 10;
 
-if (primeiro > segundo) {
+if (primeiro > segundo && primeiro > terceiro) {
   console.log(primeiro); 
-} else if (segundo > primeiro) {
+} else if (segundo > primeiro && segundo > terceiro) {
   console.log(segundo);
-} else {
+} else if (terceiro > primeiro && terceiro > segundo) {
   console.log(terceiro);
 }
 
