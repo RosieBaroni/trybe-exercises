@@ -71,11 +71,21 @@ function selectDaysHoliday() {
   });
 
   function mudaCor(state) {
-	if (state == true) {
-		item.style.backgroundColor = 'blue';
-	} else {
-		item.style.backgroundColor = 'rgb(238,238,238)';
-	}
+    if (state == true) {
+      item.style.backgroundColor = 'blue';
+    } else {
+      item.style.backgroundColor = 'rgb(238,238,238)';
+    }
+    
+    if (showHoliday === false) {
+      item.style.backgroundColor = 'rgb(238,238,238)';
+    } else {
+      item.style.backgroundColor = 'blue';
+    }
+    if (showHoliday === false){
+      showHoliday = true;
+    }
+  }
 }
 
 selectDaysHoliday();
