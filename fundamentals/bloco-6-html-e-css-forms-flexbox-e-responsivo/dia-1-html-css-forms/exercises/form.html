@@ -11,82 +11,82 @@
 </head>
 
 <body>
+  <main class="container">
+    <h1 class="display-1">Formulário de Cadastro - Currículo</h1>
 
-  <h1 class="display-1">Currículo</h1>
+    <form action="" method="get">
+      <fieldset class="fieldset">
+        <div class="row">
+          <div class="mb-3 col-4">
+            <label for="input-text">Nome:</label>
+            <input class="form-control" type="text" name="name" id="input-text" maxlength="40" required>
+          </div>
 
-  <form action="" method="get" class="row g-3">
+          <div class="mb-3 col-8">
+            <label for="input-email">E-mail:</label>
+            <input class="form-control" type="email" name="email" id="input-email" maxlength="50" required>
+          </div>
+        </div>
 
-    <fieldset class="fieldset">
-     
-      <div class="mb-3 row">
-        <label for="input-text">Nome:</label>
-        <input class="form-control" type="text" name="name" id="input-text" maxlength="40" required>
-      </div>
+        <div class="mb-3 row">
+          <div class="col-md-4">
+            <label for="input-cpf">CPF:</label>
+            <input class="form-control" type="text" name="cpf" id="input-cpf" maxlength="11" required>
+          </div>
+        </div>
 
-      <div class="mb-3 row">
-        <label for="input-email">E-mail:</label>
-        <input class="form-control" type="email" name="email" id="input-email" maxlength="50" required>
-      </div>
+        <div class="mb-3 row">
+          <label for="input-endereco">Endereço:</label>
+          <input class="form-control" type="text" name="endereco" id="input-endereco" maxlength="200" required>
+        </div>
 
-      <div class="mb-3 row">
-        <label for="input-cpf">CPF:</label>
-        <input class="form-control" type="text" name="cpf" id="input-cpf" maxlength="11" required>
-      </div>
+        <div class="mb-3 row">
+          <label for="input-cidade">Cidade:</label>
+          <input class="form-control" type="text" name="cidade" id="input-cidade" maxlength="28" required>
+        </div>
 
-      <div class="mb-3 row">
-        <label for="input-endereco">Endereço:</label>
-        <input class="form-control" type="text" name="endereco" id="input-endereco" maxlength="200" required>
-      </div>
-
-      <div class="mb-3 row">
-        <label for="input-cidade">Cidade:</label>
-        <input class="form-control" type="text" name="cidade" id="input-cidade" maxlength="28" required>
-      </div>
-
-      <div class="mb-3 row">
-        <label for="estado"> Estado:
-          <select name="estado" id="estado" class="form-select" aria-label="Default select example"></select>
-        </label>
-      </div>
-        
-      <div class="mb-3 row">
-        <label for="input-casa" class="form-check-label"> 
+        <div class="mb-3 row">
+          <label for="estado"> Estado:
+            <select name="estado" id="estado" class="form-select" aria-label="Default select example"></select>
+          </label>
+        </div>
+          
+        <div class="mb-3 row">
+          <label for="input-casa" class="form-check-label"> 
             <input type="radio" class="form-check-input"  name="tipo" id="input-casa" value="casa" checked> Casa
-        </label>
-      </div>
-      
+          </label>
+        </div>
+        
         <label for="input-apt" class="form-check-label">
-            <input type="radio" class="form-check-input" name="tipo" id="input-apt" value="apartamento"> Apartamento
+          <input type="radio" class="form-check-input" name="tipo" id="input-apt" value="apartamento"> Apartamento
         </label>
-    </fieldset>
 
-    <fieldset>
+        <div class="form-floating">
+          <p>Resumo do currículo:</p> 
+          <textarea class="form-control" name="resumo-curriculo" id="textarea-1" maxlength="1000"></textarea>
+        </div>
 
-      <div class="form-floating"></div>
-        <p>Resumo do currículo:</p> 
-        <textarea class="form-control" name="resumo-curriculo" id="textarea-1" maxlength="1000"></textarea>
-      </div>
+        <div class="mb-3 row">
+          <label for="input-cargo">Cargo:</label>
+          <input class="form-control" type="text" name="cargo" id="input-cargo" maxlength="40" required>
+        </div>
 
-      <div class="mb-3 row">
-        <label for="input-cargo">Cargo:</label>
-        <input class="form-control" type="text" name="cargo" id="input-cargo" maxlength="40" required>
-      </div>
+        <div class="mb-3 row">
+          <label for="input-descricao-cargo">Descrição do cargo:</label>
+          <input class="form-control" type="text" name="descricao-cargo" id="input-descricao-cargo" maxlength="500" required>
+        </div>
 
-      <div class="mb-3 row">
-        <label for="input-descricao-cargo">Descrição do cargo:</label>
-        <input class="form-control" type="text" name="descricao-cargo" id="input-descricao-cargo" maxlength="500" required>
-      </div>
+        <div class="mb-3 row">
+          <label for="input-data-inicio">Data de início:</label>
+          <input class="form-control" type="date" name="data-inicio" id="input-data-inicio" required>
+        </div>
 
-      <div class="mb-3 row">
-        <label for="input-data-inicio">Data de início:</label>
-        <input class="form-control" type="date" name="data-inicio" id="input-data-inicio" required>
-      </div>
-    </fieldset>
-  </form>
+        <button class="btn btn-success">Enviar</button>
+        <button class="btn btn-danger">Limpar</button>
+      </fieldset>
+    </form>
+  </main>
   
-  <button class="btn btn-success">Enviar</button>
-  <button class="btn btn-danger">Limpar</button>
-
   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
