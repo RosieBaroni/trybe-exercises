@@ -1,3 +1,4 @@
+// função que cria os estados
 function buildStatesOptions(states) {
   const statesContainer = document.querySelector('#estado');
   let options = '';
@@ -123,3 +124,23 @@ const states = [
 ]
 
 buildStatesOptions(states);
+
+// função que limpa o fomulário
+function clearFields() {
+  let clearButton = document.querySelector('.clear-button');
+   
+  clearButton.addEventListener('click',() => {
+    let formElements = document.querySelectorAll('input');
+    let textArea = document.querySelector('textarea')
+    let div = document.querySelectorAll('.div-curriculum');
+      
+    for (let index = 0; index < formElements.length && index < div.length; index += 1) {
+      let userInput = formElements[index];
+      userInput.value = '';
+      textArea.value = '';
+      div[index].innerText = '';
+    }
+  });
+}
+
+clearFields();
