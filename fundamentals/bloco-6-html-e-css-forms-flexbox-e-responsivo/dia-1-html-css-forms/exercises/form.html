@@ -12,10 +12,11 @@
 
 <body>
   <main class="container">
-    <header class="header">
-      <h1 class="display-1">Formulário para cadastro de currículo</h1>
+    <header class="mt-4">
+      <h1>Formulário para cadastro de currículo</h1>
     </header>
-    <form action="" method="get">
+
+    <form id="form" action="" method="get">
       <fieldset class="fieldset">
         <div class="row">
           <div class="mb-3 col-6">
@@ -36,48 +37,54 @@
           </div>
         </div>
 
-        <div class="mb-3 row">
-          <label for="input-endereco">Endereço:</label>
-          <input class="form-control" type="text" name="endereco" id="input-endereco" maxlength="200" required>
+        <div class="row">
+          <div class="mb-3 col-4">
+            <label for="input-endereco">Endereço:</label>
+            <input class="form-control" type="text" name="endereco" id="input-endereco" maxlength="200" required>
+          </div>
+
+          <div class="mb-3 col-4">
+            <label for="input-cidade">Cidade:</label>
+            <input class="form-control" type="text" name="cidade" id="input-cidade" maxlength="28" required>
+          </div>
+
+          <div class="mb-3 col-2">
+            <label for="estado"> Estado:
+              <select name="estado" id="estado" class="form-select" aria-label="Default select example"></select>
+            </label>
+          </div>
+
+          <div class="mb-3 col-2">
+            <label for="input-casa" class="form-check-label">Tipo:</label>
+
+            <div class="row">
+              <div class="mb-3 col-3">
+                <input type="radio" class="form-check-input" name="tipo" id="input-casa" value="casa" checked> Casa
+              </div>
+
+              <div class="mb-3 col-3">
+                <input type="radio" class="form-check-input" name="tipo" id="input-apt" value="apartamento"> Apartamento
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="mb-3 row">
-          <label for="input-cidade">Cidade:</label>
-          <input class="form-control" type="text" name="cidade" id="input-cidade" maxlength="28" required>
+        <div class="mb-3 col-12">
+          <label for="textarea-resumo-curriculo">Resumo do currículo:</label>
+          <textarea class="form-control" name="resumo-curriculo" id="textarea-resumo-curriculo" maxlength="1000"></textarea>
         </div>
 
-        <div class="mb-3 row">
-          <label for="estado"> Estado:
-            <select name="estado" id="estado" class="form-select"  aria-label="Default select example"></select>
-          </label>
-        </div>
-          
-        <div class="mb-3 row">
-          <label for="input-casa" class="form-check-label"> 
-            <input type="radio" class="form-check-input"  name="tipo" id="input-casa" value="casa" checked> Casa
-          </label>
-        </div>
-        
-        <label for="input-apt" class="form-check-label">
-          <input type="radio" class="form-check-input" name="tipo" id="input-apt" value="apartamento"> Apartamento
-        </label>
-
-        <div class="form-floating">
-          <p>Resumo do currículo:</p> 
-          <textarea class="form-control" name="resumo-curriculo" id="textarea-1" maxlength="1000"></textarea>
-        </div>
-
-        <div class="mb-3 row">
+        <div class="mb-3 col-12">
           <label for="input-cargo">Cargo:</label>
           <input class="form-control" type="text" name="cargo" id="input-cargo" maxlength="40" required>
         </div>
 
-        <div class="mb-3 row">
+        <div class="mb-3 col-12">
           <label for="input-descricao-cargo">Descrição do cargo:</label>
           <input class="form-control" type="text" name="descricao-cargo" id="input-descricao-cargo" maxlength="500" required>
         </div>
 
-        <div class="mb-3 row">
+        <div class="mb-3 col-12">
           <label for="input-data-inicio">Data de início:</label>
           <input class="form-control" type="date" name="data-inicio" id="input-data-inicio" required>
         </div>

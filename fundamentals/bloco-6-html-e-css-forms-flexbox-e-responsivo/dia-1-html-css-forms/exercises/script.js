@@ -144,3 +144,23 @@ function clearFields() {
 }
 
 clearFields();
+
+// buttonSubmit
+
+function radioValidation(radio, name){
+  let checked = document.querySelector(`[name=${casa}]:checked`)
+  
+  if (checked === null) {
+    return false;
+  }
+
+  return true;
+}
+
+function buttonSubmit() {
+  let submitButton = document.querySelector('#form');
+  
+  submitButton.addEventListener('submit', (event)=> {
+    event.target.preventDefault();
+   }); 
+}
