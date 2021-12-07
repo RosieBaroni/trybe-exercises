@@ -38,7 +38,11 @@ const order = {
 "Olá Ana Silveira, entrega para: Rafael Andrade, Telefone: 11-98763-1416, 
 R. Rua das Flores, Nº: 389, AP: 701". */
 const customerInfo = (order) => {
-  console.log(`Olá ${order.order.delivery.deliveryPerson}, entrega para: ${order.name} Telefone: ${order.phoneNumber}, R. ${order.address.street}, Nº: ${order.address.number}, AP: ${order.address.apartment}.`)
+  console.log(
+    `Olá ${order.order.delivery.deliveryPerson}, entrega para: ${order.name} 
+    Telefone: ${order.phoneNumber}, R. ${order.address.street}, Nº: ${order.address.number}, 
+    AP: ${order.address.apartment}.`
+  );
 }
 
 customerInfo(order);
@@ -48,16 +52,13 @@ customerInfo(order);
 é R$ 50,00." Modifique o nome da pessoa compradora. Modifique o valor total da 
 compra para R$ 50,00. */
 const orderModifier = (order) => {
-const orderM = {
-  name: 'Luiz Andrade',
-};
+  order.name = 'Luiz Silva'; 
+  order.payment.total = 50;
 
-const payment = {
-  total: 50,
-};
-
-const clone = Object.assign(order, payment);
-
+  console.log(
+    `Olá ${order.name}, o total do seu pedido de ${Object.keys(order.order.pizza)[0]}, 
+    ${Object.keys(order.order.pizza)[1]}, ${order.order.drinks.coke.type} é R$ ${order.payment.total},00.`
+  );
 }
-console.log(orderModifier);
+
 orderModifier(order);
