@@ -1,7 +1,19 @@
-const sum = (a, b) => a + b;
+const sum = require('./sum.js');
 
-test('sums two values', () => {
-  expect(sum(4, 5)).toEqual(9);
+describe('sums two values', () => {
+  
+  it('entrar 4 e 5 para retornar 9', () => {
+    expect(sum(4, 5)).toEqual(9);
+  });
+
+  it('entrar 0 e 0 para retornar 0', () => {
+    expect(sum(0, 0)).toEqual(0);
+  });
+
+  it('deve disparar um erro caso receba como parâmetro uma string', () => {
+    expect(() => sum(4, '5')).toThrowError('parameters must be numbers');
+  });
+
 });
 
 
