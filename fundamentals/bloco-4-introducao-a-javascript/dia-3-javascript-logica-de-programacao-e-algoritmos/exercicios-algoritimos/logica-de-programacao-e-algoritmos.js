@@ -47,21 +47,47 @@ console.log(linhas);
 
 /* 4- Depois, faça uma pirâmide com n asteriscos de base: */
 
-let n = 5;
+let n = 7;
 let asteriscos = "*";
 let linhas = "";
 
-for (let linhaIndex = 1; linhaIndex <= n; linhaIndex++) {
-  if (linhaIndex % 2 !== 0) {
-    for (let colunaIndex = 1; colunaIndex <= linhaIndex; colunaIndex++) {
-      linhas += asteriscos;
+let meioDaMatriz = (n + 1) / 2;
+let controleEsquerda = meioDaMatriz;
+let controleDireita = meioDaMatriz;
+
+for (let linhaIndex = 0; linhaIndex <= meioDaMatriz; linhaIndex += 1) {
+  for (let colunaIndex = 0; colunaIndex <= n; colunaIndex += 1) {
+    if (colunaIndex > controleEsquerda && colunaIndex < controleDireita) {
+      linhas = linhas + asteriscos;
+    } else {
+      linhas = linhas + " ";
     }
-
-    linhas = linhas.concat("\n");
   }
-}
-
-console.log(linhas);
+  console.log(linhas);
+  linhas = "";
+  controleDireita += 1;
+  controleEsquerda -= 1
+};
 
 /* 5- Faça uma pirâmide com n asteriscos de base que seja vazia no meio. 
 Assuma que o valor de n será sempre ímpar: */
+
+let n = 7;
+let meio = (n + 1) / 2;
+let controleEsquerda = meio;
+let controleDireita = meio;
+let asteriscos = '*';
+
+for (let linhaIndex = 1; linhaIndex <= meio; linhaIndex += 1) {
+  let linhas = '';
+  for (let col = 1; col <= n; col += 1) {
+    if (col == controleEsquerda || col == controleDireita || linhaIndex == meio) {
+      linhas += asteriscos;
+    } else {
+      linhas += ' ';
+    }
+  }
+  controleEsquerda -= 1;
+  controleDireita += 1;
+  console.log(linhas);
+}
