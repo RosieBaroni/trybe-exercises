@@ -19,8 +19,13 @@ myFavoriteFilm.innerText = "Meu Filme Favorito";
 
 //Para fixar - getElementsByClassName e getElementsByTagName
 
-/* 1. Adicione uma classe igual para os dois parágrafos.
-  Adicionei classes iguais para p1 e p2. */
+//1. Adicione uma classe igual para os dois parágrafos.
+// Adicionei classes iguais para p1 e p2.
+let paragraphOne = document.getElementById("paragraph");
+paragraphOne.className = "paragraphs";
+
+let paragraphTwo = document.getElementById("second-paragraph");
+paragraphTwo.className = "paragraphs";
 
 // 2. Recupere os seus parágrafos via código JavaScript , usando a função getElementsByClassName ;
 let myParagraphs = document.getElementsByClassName("paragraphs");
