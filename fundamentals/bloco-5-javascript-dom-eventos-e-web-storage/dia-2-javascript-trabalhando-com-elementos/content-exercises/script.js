@@ -22,4 +22,5 @@ document.getElementById('elementoOndeVoceEsta').nextSibling;
 //7. Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
 document.getElementById('elementoOndeVoceEsta').nextSibling.nextSibling; 
 
-//8. Agora acesse o terceiroFilho a partir de pai .
+//8. Agora acesse o terceiroFilho a partir de pai.
+document.getElementById('pai').lastElementChild.previousElementSibling;
