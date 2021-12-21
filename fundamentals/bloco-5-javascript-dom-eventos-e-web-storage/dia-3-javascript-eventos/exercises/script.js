@@ -137,4 +137,115 @@ function zoomOutDay() {
 zoomInDay();
 zoomOutDay();
 
+//7.
+function addTaskSpan(task) {
 
+  let tasksContainer = document.querySelector('.my-tasks');
+  let taskName = document.createElement('span');
+
+  taskName.innerHTML = task;
+  tasksContainer.appendChild(taskName);
+};
+
+addTaskSpan('Cozinhar');
+
+//8.
+function addTaskDiv(color) {
+  let tasksContainer = document.querySelector('.my-tasks');
+  let newTask = document.createElement('div');
+
+  newTask.className = 'task';
+  newTask.style.backgroundColor = color;
+  tasksContainer.appendChild(newTask);
+};
+
+addTaskDiv('green');
+
+//9.
+function selectTask() {
+  let tasksContainer = document.querySelector('.my-tasks');
+  
+  tasksContainer.addEventListener('click', (event) => {
+    const { target } = event;
+
+    if (target.classList.contains('task')) {
+      const selectedItem = document.querySelector('.selected');
+
+      if (selectedItem !== null) {
+        selectedItem.classList.remove('selected');
+      }
+
+      target.classList.add('selected');
+    }
+  });
+}
+
+selectTask();
+
+//10.
+function colorDayTask() {
+  const daysContainer = document.querySelector('#days');
+
+  daysContainer.addEventListener('click', (event) => {
+    const { target } = event;
+
+    if (target.classList.contains('day')) { 
+      const taskSelected = document.querySelector('.selected');
+      
+       if (taskSelected === null) {
+        return;
+      }
+
+      if (target.classList.contains('selected')) {
+        target.classList.remove('selected');
+        target.style.backgroundColor = 'transparent';
+
+        return;
+      }
+
+      target.classList.add('selected');
+      target.style.backgroundColor = taskSelected.style.backgroundColor;
+    }
+  });
+}
+
+colorDayTask();
+
+// Bônus:
+
+function addTask() {
+  const input = document.querySelector('#task-input');
+  const taskList = document.querySelector('.task-list')
+
+  if (input.value === '') {
+    alert('Escreva seu compromisso antes de adicionar!');
+  }
+
+  const appointmentListItem = document.createElement('li');
+
+  appointmentListItem.innerText = input.value;
+  taskList.appendChild(appointmentListItem);
+  input.value = '';
+}
+
+function addTaskListener() {
+  const buttonAddInput = document.querySelector('#btn-add');
+
+  /* apenas chamo a function:addTask, sem exeutar aqui(), assim ela só é executada após o 'click' */
+  buttonAddInput.addEventListener('click', addTask);
+}
+
+addTaskListener();
+
+/* Source: https://qastack.com.br/programming/155188/trigger-a-button-click-with-javascript-on-the-enter-key-in-a-text-box*/
+function addTaskEnterKey() {
+  const input = document.querySelector('#task-input');
+    input.addEventListener("keyup", function(event) {
+    
+    if (event.keyCode === 13) {
+      addTask();
+    }
+  });
+} 
+
+addTaskEnterKey();
