@@ -1,0 +1,25 @@
+.input {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.entrar {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.box-login {
+  background-color: aquamarine;
+  border-radius: 10px;
+  text-align: center;
+  margin: 100px auto;
+  padding: 100px;
+  width: 50%;
+}
+
+#salvar {
+  margin-top: 20px;
+}
