@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
-- [x] 4-5: _[Projeto - Playground Functions]()_
+- [x] 4-5: _[Projeto - Playground Functions](https://github.com/RosieBaroni/project-playground-functions)_
 
 ### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -41,8 +41,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
-- [x] 5-6: _[Projeto - Arte com Pixels]()_
-- [x] 5-7: _[Projeto - Lista de tarefas]()_
+- [x] 5-6: _[Projeto - Arte com Pixels](https://github.com/RosieBaroni/project-pixels-art)_
+- [x] 5-7: _[Projeto - Lista de tarefas](https://github.com/RosieBaroni/project-todo-list)_
 
 ### Bloco 6: HTML & CSS Avançado
 
@@ -58,7 +58,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitários em JavaScript_
-- [x] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ### Bloco 8: JavaScript ES6
 
