@@ -73,11 +73,10 @@ function oldBooksOrdered() {
   const currentYear = new Date().getFullYear();
   //console.log(currentYear);
   return books
-  .filter((book) => (
-    book.releaseYear < currentYear - 60
-  ))
-  
-  .sort((bookA, bookB) => bookA.releaseYear - bookB.releaseYear);
+    .filter((book) => (
+      book.releaseYear < currentYear - 60
+    ))
+    .sort((bookA, bookB) => bookA.releaseYear - bookB.releaseYear);
 };
 
 console.log(oldBooksOrdered(books));

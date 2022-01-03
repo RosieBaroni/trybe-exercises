@@ -70,8 +70,7 @@ const books = [
  * O método endsWith() indica se uma string termina com determinados caracteres, retornando true ou false.
 */
 function authorWith3DotsOnName() {
-   return books.find((book) => (
-    
+   return books.find((book) => (  
     book.author.name.split(' ')
       .filter((book) => book.endsWith('.')).length === 3
   )).name;

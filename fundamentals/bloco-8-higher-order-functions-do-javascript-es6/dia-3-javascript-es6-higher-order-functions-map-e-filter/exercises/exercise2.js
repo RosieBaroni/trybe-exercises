@@ -71,16 +71,13 @@ Dica: use as funções map , sort */
 // Adicione o código do exercício aqui:
 function nameAndAge() {
   return books
-  
-  .map((book) => (
-  {
-    age: book.releaseYear - book.author.birthYear,
-    author: book.author.name,
-  }
-  ))
-
-  .sort((obj1, obj2) => obj1.age - obj2.age);
-
+    .map((book) => (
+    {
+      age: book.releaseYear - book.author.birthYear,
+      author: book.author.name,
+    }
+    ))
+    .sort((obj1, obj2) => obj1.age - obj2.age);
 };
 
 console.log(nameAndAge(books));

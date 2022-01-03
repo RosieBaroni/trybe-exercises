@@ -68,12 +68,10 @@ function oldBooks() {
   const currentYear = new Date().getFullYear();
   //console.log(currentYear);
   return books
-  
-  .filter((book) => (
-    book.releaseYear < currentYear - 60
-  ))
-
-  .map((book) => book.name);
+    .filter((book) => (
+      book.releaseYear < currentYear - 60
+    ))
+    .map((book) => book.name);
 };
 
 console.log(oldBooks(books));

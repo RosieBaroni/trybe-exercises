@@ -67,12 +67,11 @@ const books = [
 // Adicione o código do exercício aqui:
 function fantasyOrScienceFictionAuthors() {
   return books
-  
-  .filter((book) => (
-    book.genre === 'Fantasia' || book.genre === 'Ficção Científica'
-  )) 
-
-  .map((book) => book.author.name).sort();
+    .filter((book) => (
+      book.genre === 'Fantasia' || book.genre === 'Ficção Científica'
+    )) 
+    .map((book) => book.author.name)
+    .sort();
 };
 
 console.log(fantasyOrScienceFictionAuthors(books));
