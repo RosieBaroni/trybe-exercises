@@ -15,5 +15,11 @@ const expected = [
 ]; */
 
 function studentAverage() {
-  // escreva seu código aqui
+   const nameAndAverage = students.map((student, index) => ({
+    name: student,
+    average: (grades[index].reduce((acc, curr) => acc + curr, 0) / grades[index].length),
+  }));
+  return nameAndAverage;
 }
+
+console.log(studentAverage(students, grades));

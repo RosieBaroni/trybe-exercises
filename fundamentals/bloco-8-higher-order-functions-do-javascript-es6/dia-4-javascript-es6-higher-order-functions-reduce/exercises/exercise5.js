@@ -13,5 +13,11 @@ const names = [
 ]; */
 
 function containsA() {
-  // escreva seu código aqui
-}
+  return names.reduce((accumulator1, current1) =>
+    accumulator1 + current1.split('').reduce((acumulator2, current2) => {
+      if (current2 === 'a' || current2 === 'A') return acumulator2 + 1;
+      return acumulator2;
+    }, 0), 0);
+};
+
+console.log(containsA(names));
