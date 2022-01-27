@@ -2,7 +2,7 @@ import React from "react";
 import Task from "./components/TaskList";
 
 class App extends React.Component {
-  tarefas = ['Acordar', 'Tomar café', 'Escovar os dentes', 'Ir trabalhar'];
+  tarefas = ['Acordar', 'Arrumar a cama', 'Fazer o café', 'Escovar os dentes', 'Ir estudar'];
 
   render() {
     return (
