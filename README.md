@@ -115,120 +115,135 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 15-2: _Usando o Redux no React_
 - [x] 15-3: _Usando o Redux no React - Prática_
 - [x] 15-4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] 15-5: _Testes em React-Redux_
-- [ ] 15-6: _[Projeto - Trybe Wallet]()_
+- [x] 15-5: _Testes em React-Redux_
+- [x] 15-6: _[Projeto - Trybe Wallet]()_
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [x] 16-1: _[Projeto - Jogo de Trivia]()_
 
 ##### Bloco 17: Context API e React Hooks
 
-- [ ] 17-1: _Context API do React_
-- [ ] 17-2: _React Hooks - useState e useContext_
-- [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 17-1: _Context API do React_
+- [x] 17-2: _React Hooks - useState e useContext_
+- [x] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 ##### Bloco 18: Projeto App de Receitas
 
-- [ ] 18-1: _[Projeto - App de Receitas]()_
+- [x] 18-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 19: Introdução à SQL
+##### Bloco 19: Docker: Utilizando Containers
 
-- [ ] 19-1: _Introdução - Back-end_
-- [ ] 19-1: _Introdução - Bancos de dados relacionais_
-- [ ] 19-1: _Banco de dados SQL_
-- [ ] 19-2: _Encontrando dados em um banco de dados_
-- [ ] 19-3: _Filtrando dados de forma especí­fica_
-- [ ] 19-4: _Manipulando tabelas_
-- [ ] 19-5: _[Projeto - All For One]()_
+- [x] 19-1: _Introdução - Back-end_
+- [x] 19-1: _Utilizando Containers - Docker_
+- [x] 19-2: _Manipulação e Criação de Imagens no Docker_
+- [x] 19-3: _Orquestrando Containers com Docker Compose_
+- [x] 19-4: _[Projeto - Docker Todo-List]()_
+
+##### Bloco 20: Introdução à SQL
+
+- [x] 20-1: _Introdução - Bancos de dados relacionais_
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados de forma especí­fica_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-5: _[Projeto - All For One]()_
 
 ##### Bloco 20: Funções SQL, Joins e Subqueries
 
-- [ ] 20-1: _Funções mais usadas no SQL_
-- [ ] 20-2: _Descomplicando JOINs, UNIONs e Subqueries_
-- [ ] 20-3: _Stored Routines & Stored Functions_
-- [ ] 20-4: _[Projeto - Vocabulary Booster]()_
+- [x] 21-1: _Funções mais usadas no SQL_
+- [x] 21-2: _Descomplicando JOINs, UNIONs e Subqueries_
+- [x] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [x] 21-4: _[Projeto - One For All]()_
 
 ##### Bloco 21: Normalização e Modelagem de banco de dados
 
-- [ ] 21-1: _Transformando ideias em um modelo de banco de dados - Parte 1_
-- [ ] 21-2: _Normalização, Formas Normais e Dumps_
-- [ ] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 21-3: _[Projeto - One For All]()_
+- [x] 21-1: _Transformando ideias em um modelo de banco de dados - Parte 1_
+- [x] 21-2: _Normalização, Formas Normais e Dumps_
+- [x] 21-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [x] 21-3: _[Projeto - One For All]()_
 
-##### Bloco 22: Introdução à MongoDB
+##### Bloco 22: Introdução ao Desenvolvimento Web com NodeJS
 
-- [ ] 22-1: _Introdução - NoSQL_
-- [ ] 22-1: _Introdução - MongoDB_
-- [ ] 22-2: _Filter Operators_
-- [ ] 22-3: _[Projeto - Data Flights]()_
+- [x] 22-1: _Introdução NodeJs_
+- [x] 22-2: _Fluxo Assíncrono - NodeJS_
+- [x] 22-3: _Testes com NodeJS_
+- [x] 22-4: _Express: HTTP com NodeJS_
+- [x] 22-5: _Express: Middlewares_
+- [x] 22-6: _[Projeto - Talker Manager]()_
 
-##### Bloco 23: MongoDB: Updates Simples e Complexos
+##### Bloco 23: NodeJS: Camada de serviço e arquitetura Rest e Restful
 
-- [ ] 23-1: _Updates Simples_
-- [ ] 23-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 23-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 23-4: _[Projeto - Commerce]()_
+- [x] 23-1: _Arquitetura de Software_
+- [x] 23-1: _Arquitetura de Software - Camada de Model_
+- [x] 23-2: _Arquitetura de Software - Camada de Controller e Service_
+- [x] 23-3: _Arquitetura Web - Rest e Restful_
+- [x] 23-4: _Arquitetura de Software - Testando Camadas_
+- [x] 23-5: _[Projeto - Store Manager]()_
 
-##### Bloco 24: MongoDB: Aggregation Framework
+##### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 24-1: _Aggregation Framework - Part 1_
-- [ ] 24-2: _Aggregation Framework - Part 2_
-- [ ] 24-3: _[Projeto - Aggregations]()_
+- [x] 24-1: _NodeJS - ORM e Autenticação_
+- [x] 24-1: _NodeJS - ORM - Interface da aplicação com o banco de dados_
+- [x] 24-2: _NodeJS - ORM - Associations_
+- [x] 24-3: _NodeJS - JWT (JSON Web Token)_
+- [x] 24-4: _NodeJS - Testando APIs com testes de integração_
+- [ ] 27-5: _[Projeto - API de Blogs]()_
 
-##### Bloco 25: Introdução ao Desenvolvimento Web com NodeJS
+##### Bloco 25: Deployment
 
-- [ ] 25-1: _Introdução NodeJs_
-- [ ] 25-2: _Fluxo Assíncrono - NodeJS_
-- [ ] 25-3: _Testes com NodeJS_
-- [ ] 25-4: _Express: HTTP com NodeJS_
-- [ ] 25-5: _Express: Middlewares_
-- [ ] 25-6: _[Projeto - Talker Manager]()_
+- [ ] 25-1: _Introdução - Deploy_
+- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 25-2: _Deploy Docker & Heroku_
+- [ ] 25-3: _[Projeto - Stranger Things]()_
 
-##### Bloco 26: NodeJS: Camada de serviço e arquitetura Rest e Restful
+##### Bloco 26: TypeScript
 
-- [ ] 26-1: _Arquitetura de Software_
-- [ ] 26-1: _Arquitetura de Software - Camada de Model_
-- [ ] 26-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 26-3: _Arquitetura Web - Rest e Restful_
-- [ ] 26-4: _Arquitetura de Software - Testando Camadas_
-- [ ] 26-5: _[Projeto - Store Manager]()_
+- [ ] 26-1: _Introdução - TypeScript_
+- [ ] 26-2: _Tipagem Estática e Generics_
+- [ ] 26-3: _Express com TypeScript_
+- [ ] 26-4: _[Projeto - Trybe Smith]()_
 
-##### Bloco 27: Autenticação e Upload de arquivos
+##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 27-1: _NodeJS - JWT (JSON Web Token)_
-- [ ] 27-2: _NodeJS - Upload de arquivos com `multer`_
-- [ ] 27-3: _NodeJS - Testando APIs com testes de integração_
-- [ ] 27-4: _[Projeto - Cookmaster]()_
+- [ ] 27-1: _Introdução à Orientação a Objetos_
+- [ ] 27-2: _Herança e Interfaces_
+- [ ] 27-3: _Polimorfismo_
+- [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 27-5: _SOLID - Princípios L e I_
+- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
 
-##### Bloco 28: Deployment
+##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 28-1: _Introdução - Deploy_
-- [ ] 28-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 28-2: _Deploy - Gerenciadores de processos_
-- [ ] 28-3: _[Projeto - Stranger Things]()_
+- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
-##### Bloco 29: Arquitetura: SOLID e ORM
+##### Bloco 29: Introdução à MongoDB
 
-- [ ] 29-1: _Arquitetura - Princípios SOLID_
-- [ ] 29-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 29-3: _ORM - Associations_
-- [ ] 29-4: _[Projeto - API de Blogs]()_
+- [ ] 29-1: _Introdução - NoSQL_
+- [ ] 29-1: _Introdução - MongoDB_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _Operadores de consulta_
+- [ ] 29-4: _Updates Simples_
+- [ ] 29-5: _Updates Complexos - Arrays_
+- [ ] 29-6: _[Projeto - Commerce]()_
 
-##### Bloco 30: Sockets
+##### Bloco 30: MongoDB com Node.js e POO
 
-- [ ] 30-1: _Arquitetura de Software - Camada de View_
-- [ ] 30-2: _Sockets - TCP/UDP & NET_
-- [ ] 30-3: _Sockets - Socket.io_
-- [ ] 30-4: _Sockets - Praticando Socket.io_
-- [ ] 30-5: _[Projeto - Webchat]()_
+- [ ] 30-1: _MongoDB e arquitetura MSC_
+- [ ] 30-2: _MongoDB e POO_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 
 ##### Bloco 31: Projeto - App de Delivery
 
 - [ ] 31-1: _[Projeto - App de Delivery]()_
+
+##### Bloco 32: MasterClass - VPS, CI/CD
+
+- [ ] 32-1: _Dia 1 - VPS_
+- [ ] 32-2: _Dia 2_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
